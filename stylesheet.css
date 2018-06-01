@@ -1,12 +1,4 @@
 /* 共通ここから */
-h1 {
-}
-h3 {
-}
-h4 {
-}
-h5 {
-}
 h1.localtop{
     color: #006e90;
 }
@@ -30,6 +22,14 @@ p.update {
     margin:0;
     padding:25px 0 25px 0;
     color:#696969;
+}
+
+ul li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul li.date{
+    margin-top: 15px;
 }
 /* 共通ここまで */
 

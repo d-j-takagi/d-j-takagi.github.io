@@ -31,12 +31,12 @@ ul li{
 ul li.date{
     margin-top: 15px;
 }
-a {
+a.exlink {
     color: #006e90;
     text-decoration: underline;
     font-weight: bold;
 }
-a:hover{
+a:hover.exlink{
     color: #006e90;
     text-decoration: none;
     font-weight: bold;

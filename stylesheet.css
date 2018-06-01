@@ -33,6 +33,13 @@ ul li.date{
 }
 a {
     color: #006e90;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:hover{
+    color: #006e90;
+    text-decoration: none;
+    font-weight: bold;
 }
 /* 共通ここまで */
 

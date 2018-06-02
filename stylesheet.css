@@ -7,6 +7,14 @@ h1.local{
     padding-top: 90px;
     margin-top: -90px;
 }
+h1.localruby{
+    color: #006e90;
+    font-size: 20px;
+    padding-top: 90px;
+    margin-top: -90px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 h2.local {
     color: #38023b;
 }

@@ -1,4 +1,4 @@
 User-Agent:*
-Disarrow:/pp/
+Disallow:/pp/
 
 Sitemap:https://d-j-takagi.github.io/sitemap.xml

@@ -1,0 +1,4 @@
+User-Agent:*
+Disarrow:/pp/
+
+Sitemap:https://d-j-takagi.github.io/sitemap.xml

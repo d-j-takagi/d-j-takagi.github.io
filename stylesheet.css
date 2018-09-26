@@ -18,6 +18,9 @@ h1.localruby{
 h2.local {
     color: #38023b;
 }
+h2.engjp {
+    color: #38023b;
+}
 ul.listnone {
     list-style:none;
 }
@@ -38,6 +41,34 @@ ul li{
 }
 ul li.date{
     margin-top: 15px;
+}
+ul li.cvdateeng{
+    margin-top: 15px;
+    margin-left: 35px;
+    padding-left: 5px;
+}
+ul li.cv{
+    margin-top: 15px;
+    margin-left: 35px;
+    padding-left: 5px;
+}
+ul li.cveng{
+    margin-left: 35px;
+    padding-left: 5px;
+}
+ol li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ol li.paper{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+ol li.paperlistnone {
+    list-style:none;
+    margin-left: 15px;
+    padding-left: 5px;
 }
 a.exlink {
     color: #006e90;
@@ -160,6 +191,12 @@ body {
                 padding:25px 25px 25px 25px;
             }
             /* cvここまで */
+            /* paperここから */
+            div.paper{
+                background: #ffffff;
+                padding:25px 25px 25px 25px;
+            }
+            /* paperここまで */
             /* presentationここから */
             div.presentation{
                 background: #ffffff;

@@ -21,6 +21,9 @@ h2.local {
 h2.engjp {
     color: #38023b;
 }
+h2.poster_oral {
+    color: #000000;
+}
 ul.listnone {
     list-style:none;
 }

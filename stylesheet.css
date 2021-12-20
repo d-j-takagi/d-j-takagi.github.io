@@ -212,6 +212,12 @@ body {
                 padding:25px 25px 25px 25px;
             }
             /* ppここまで */
+            /* awardここから */
+            div.award{
+                background: #ffffff;
+                padding:25px 25px 25px 25px;
+            }
+            /* awardここまで */
         /* mainここまで */
     /* containerここまで */
     /* footerここから */

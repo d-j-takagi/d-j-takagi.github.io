@@ -194,6 +194,12 @@ body {
                 padding:25px 25px 25px 25px;
             }
             /* cvここまで */
+            /* awardここから */
+            div.award{
+                background: #ffffff;
+                padding:25px 25px 25px 25px;
+            }
+            /* awardここまで */
             /* paperここから */
             div.paper{
                 background: #ffffff;
@@ -212,12 +218,6 @@ body {
                 padding:25px 25px 25px 25px;
             }
             /* ppここまで */
-            /* awardここから */
-            div.award{
-                background: #ffffff;
-                padding:25px 25px 25px 25px;
-            }
-            /* awardここまで */
         /* mainここまで */
     /* containerここまで */
     /* footerここから */

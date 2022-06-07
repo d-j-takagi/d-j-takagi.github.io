@@ -37,6 +37,9 @@ p.update {
     padding:25px 0 25px 0;
     color:#696969;
 }
+p.main {
+    line-height:150%;
+}
 
 ul li{
     margin-top: 5px;

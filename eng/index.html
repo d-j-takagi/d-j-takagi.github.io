@@ -38,7 +38,19 @@
         <div class="container">
             <div class="main">
                 <div class="name">
-                    <p class="update">Last update date: 7th June 2022</p>
+                    <p class="update">
+                    <script type="text/javascript">
+                     const month_eng_list = ["Jan.","Feb.","Mar.","Apr.","May","Jun.","Jul.","Aug.","Sep.","Oct.","Nov.","Dec."];
+                     const date_eng_list = ["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th","11th","12th","13th","14th","15th","16th","17th","18th","19th","20th","21st","22nd","23rd","24th","25th","26th","27th","28th","29th","30th","31st"];
+                     var modified = new Date(document.lastModified);
+                     var year = modified.getFullYear();
+                     var month= modified.getMonth() + 1;
+                     var date = modified.getDate();
+                     var month_eng = month_eng_list[month-1]; 
+                     var date_eng = date_eng_list[date-1]; 
+                     document.write( "Last update date: " + date_eng + " " + month_eng + " " + year);
+                    </script>
+                    </p>
                     <h2 class="engjp">English &emsp; <a href="../" class="exlink">Japanese</a></h2>
                     <h1 class="localruby" id="00">
                         たかぎ だいじろう
@@ -108,7 +120,7 @@
                             <li class="paper"><p class=main><b>Odd-frequency pairing and proximity effect in Kitaev chain systems including a topological critical point</b><br>
                             <u>Daijiro Takagi</u>, Shun Tamura, Yukio Tanaka<br>
                             Phys. Rev. B <b>101</b>, 024509 (2020).<br>
-                            [<a href="https://link.aps.org/doi/10.1103/PhysRevB.101.024509" class="exlink">Journal website</a>], [<a href="https://arxiv.org/abs/1809.09324" class="exlink">arxiv:1809.09324</a> (<a href="https://arxiv.org/pdf/1809.09324.pdf" class="exlink">pdf</a>)].</p></li>
+                            [<a href="https://link.aps.org/doi/10.1103/PhysRevB.101.024509" class="exlink">Journal website</a>], [<a href="https://arxiv.org/abs/1809.09324" class="exlink">arxiv:1809.09324</a> (<a href="https://arxiv.org/pdf/1809.09324.pdf" class="exlink">pdf</a>)], [<a href="../comments_prb_2020.pdf" class="exlink">Comments</a>].</p></li>
                         </ol>
                     </ul>
                 </div>
